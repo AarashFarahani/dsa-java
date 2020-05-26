@@ -1,4 +1,4 @@
-package algorithm.findlargest;
+package algorithm.find.largest;
 
 public class App {
     private final static int[] arr1 = {10, 20, 4};
