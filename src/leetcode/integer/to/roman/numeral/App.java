@@ -1,4 +1,4 @@
-package algorithm.integertoromannumeral;
+package leetcode.integer.to.roman.numeral;
 
 public class App {
     private final static String[] units = { "", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" };

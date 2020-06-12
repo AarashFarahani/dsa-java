@@ -1,4 +1,4 @@
-package algorithm.romatointegernumeral;
+package leetcode.roman.to.integer.numeral;
 
 import java.util.HashMap;
 import java.util.Map;
