@@ -25,11 +25,11 @@ public class App {
         int[] maxSubset = new int[]{};
 
         for (int i = 0; i < arr.length / 2; i++) {
-//            for (int j = i; j < arr.length; j++) {
+            for (int j = i + 1; j < arr.length; j++) {
                 List<Integer> subset = new ArrayList<>();
 
-                int ind = 0;
-                for (int k = i + ind, j = ind; k < arr.length && j < arr.length; k += 2 + j, j++) {
+                subset.add(arr[i]);
+                for (int k = i + j; k < arr.length; k += 2 + j) {
                     subset.add(arr[k]);
                 }
 
@@ -38,8 +38,7 @@ public class App {
                     maxSum = subsetSum;
 //                maxSubset = subset.toArray(new int[subset.size()]);
                 }
-//            }
-
+            }
         }
 
         return maxSum;
