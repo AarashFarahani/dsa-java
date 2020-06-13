@@ -1,4 +1,6 @@
 ### Sorting: Comparator
+
+#### I saw this question in EPAM and Amazon
    
 Comparators are used to compare two objects. In this challenge, you'll create a comparator and use it to sort an array. The Player class is provided in the editor below. It has two fields:
 
