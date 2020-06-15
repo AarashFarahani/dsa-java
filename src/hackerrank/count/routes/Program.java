@@ -7,8 +7,8 @@ import java.util.Stack;
 
 public class Program {
     public static void main(String[] args) {
-        var result = countRoutes(7, List.of(1, 3, 6, 2, 4));
-//        var result = countRoutes(5, List.of(
+        var result = countRoutes(7, List.of(1, 3, 6, 2, 4));    //  3
+//        var result = countRoutes(5, List.of(              //  3
 //                6,
 //                2,
 //                6,
@@ -17,7 +17,7 @@ public class Program {
 //                4,
 //                8));
 
-//        var result = countRoutes(3, List.of(
+//        var result = countRoutes(3, List.of(              //  2
 //                4,
 //                1,
 //                3,
