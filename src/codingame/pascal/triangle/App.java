@@ -1,8 +1,6 @@
-package codingame.telus;
+package codingame.pascal.triangle;
 
-import java.math.BigInteger;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class App {
