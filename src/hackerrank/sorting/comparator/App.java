@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 public class App {
-
-
     public static void main(String[] args) {
         Player[] player = new Player[] {
                 new Player("amy", 100),
